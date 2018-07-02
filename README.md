@@ -38,7 +38,7 @@ git clone https://github.com/belykhk/sd-telegram-notify
 Send message to group chat then ticket is created:
 ![Send to group chat](https://i.imgur.com/lxzhTXg.png)
 Send personal message then reply from author received:
-![Send personal notifications](https://i.imgur.com/eEuLnPE.png)
+![Send personal notifications](https://i.imgur.com/MwVyHPS.png)
 
 ___
 
