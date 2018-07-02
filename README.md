@@ -4,6 +4,7 @@ Notifications from ManageEngine Service Desk tickets to telegram chats and perso
 ### Examples
 Sending messages to group chat with short info about new ticket:
 ![Group Messages](https://i.imgur.com/pmVXxFI.jpg)
+
 Personal notifications of new replies:
 ![Personal notifications](https://i.imgur.com/c1pjSXS.jpg)
 
@@ -31,6 +32,7 @@ git clone https://github.com/belykhk/sd-telegram-notify
 {ManageEngineSDInstallDir}/integration/custom_scripts/
 ```
  - Edit your settings in Service Desk in Custom scripts menu. Something like that:
+ 
 Send message to group chat then ticket is created:
 ![Send to group chat](https://i.imgur.com/lxzhTXg.png)
 Send personal message then reply from author received:
