@@ -23,7 +23,7 @@ pip install requests
 pip install pysocks
 ```
 
-Scripts uses Telegram's User IDs to send messages, not @-style username. To get your (or chats) user ID, send /start message to him and check content of this page:
+Scripts uses Telegram's User IDs(UID) to send messages, not @-style username(but username is still used to tag technician in group chat). To get your (or chat) UID, send /start message to bot and check content of this page:
 ```
 https://api.telegram.org/bot<bot token>/getUpdates
 ``` 
