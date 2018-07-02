@@ -23,12 +23,24 @@ pip install requests
 pip install pysocks
 ```
 
+Scripts uses Telegram's User IDs to send messages, not @-style username. To get your (or chats) user ID, send /start message to him and check content of this page:
+```
+https://api.telegram.org/bot<bot token>/getUpdates
+``` 
+You will get something like this:
+```
+{"ok":true,"result":[{"update_id":XXXXXXXX,
+"message":{"message_id":8,"from":{"id":YYYYYY,"first_name":"Kostya","last_name":"Belykh","username":"belykh_k"},"chat":{"id":YYYYYY,"first_name":"Kostya","last_name":"Belykh","username":"belykh_k","type":"private"},"date":1491057143,"text":"asd"}}]}
+```
+Part `"id":YYYYYY` is what you needed. Note that Chat ID will contain `-` at begining, do not discard it.
+
 ### Installation & Configuraion
  - Clone repo to your local machine
 ```
 git clone https://github.com/belykhk/sd-telegram-notify
 ```
  - Copy `settings-example.py` to `settings.py` and edit `settings.py` for youself
+
  - Put `Posttotg.py`, `Posttotgpersonal.py` and `settings.py` to
 ```
 {ManageEngineSDInstallDir}/integration/custom_scripts/
