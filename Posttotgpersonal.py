@@ -56,7 +56,7 @@ requestduetime=datetime.datetime.fromtimestamp(int(DUEBYTIME) / 1e3).strftime('%
 
 # This is the actual message content and can be updated based on your requirement.
 message = "Got new reply on request " + workorderid +\
-	"\n<b>Sunject: </b>" + subject +\
+	"\n<b>Subject: </b>" + subject +\
 	"\n<b>Deadline: </b>" + requestduetime + \
 	"\n\n<b>Author: </b>" + createdby +\
 	"\n<b>Department: </b>" + dep + \
