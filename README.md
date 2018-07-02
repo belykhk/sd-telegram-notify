@@ -43,4 +43,5 @@ Send personal message then reply from author received:
 ___
 
 You can find additional info [here](https://medium.com/@gofys_/%D0%BE%D0%BF%D0%BE%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8%D0%B7-manageengine-service-desk-plus-%D0%B2-telegram-5d3be05b56e2) (Russian).
-Contact : [Telegram](https://t.me/belykh_k), [Mail](mailto:k@belykh.su)
+
+Contact me: [Telegram](https://t.me/belykh_k), [Mail](mailto:k@belykh.su)
