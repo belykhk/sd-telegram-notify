@@ -3,9 +3,11 @@ Notifications from ManageEngine Service Desk tickets to telegram chats and perso
 
 ### Examples
 Sending messages to group chat with short info about new ticket:
+
 ![Group Messages](https://i.imgur.com/pmVXxFI.jpg)
 
 Personal notifications of new replies:
+
 ![Personal notifications](https://i.imgur.com/c1pjSXS.jpg)
 
 ### Preparations
